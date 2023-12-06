@@ -208,6 +208,10 @@ body{
     .faq-left {
         font-size: 19px;
     }
+    body{
+        background-image: none;
+        background-image: radial-gradient(at top left, #3a2dfd, #0278df);
+    }
 }
 
 @media (max-width: 575px){
