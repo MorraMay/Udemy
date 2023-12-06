@@ -1,0 +1,261 @@
+*{ 
+    padding: 0; 
+    margin: 0; 
+    border: 0; 
+    text-decoration: none; 
+   } 
+    
+   :focus,:active{outline: none;} 
+   a:focus,a:active{outline: none;} 
+    
+   nav,footer,header,aside{display: block;} 
+    
+   :root{ 
+    --boss: rgb(160, 160, 160); 
+    --colors: rgb(210, 198, 198); 
+    --ua-b: ;
+   }  
+    
+   input,button,textarea{font-family:inherit;} 
+    
+   input::-ms-clear{display: none;} 
+   button{cursor: pointer;} 
+   button::-moz-focus-inner {padding:0;border:0;} 
+   a, a:visited{text-decoration: none;} 
+   a:hover{text-decoration: none;} 
+   ul li{list-style: none;} 
+   img{vertical-align: top;} 
+    
+   h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;} 
+    
+   html{ 
+    scroll-behavior: smooth; 
+   }
+
+body{
+    background-image: url(./blue-artificial-intelligence-technology-background-hd-free-photo.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100dvh;
+    -webkit-user-select: none; 
+    -moz-user-select: none; 
+    -ms-user-select: none; 
+    user-select: none;
+ 
+}
+.i-header__block {
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.79) 0%, rgba(27, 87, 207, 0.829));
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 5px;
+}
+.header__logo {
+    font-size: 30px;
+    font-family: fantasy;
+}
+.header__nav {
+    display: flex;
+    gap: 20px;
+   ;
+}
+.header__nav-item {
+    color: #FFAD51;
+    transition: 0.4s;
+    font-size: 19px;
+    text-shadow: 1px 0px 1px #000;
+}
+.header__nav-item:hover{
+    color: #ff6e51;
+}
+
+
+
+
+/* RESEARCH */
+.m-title{
+    font-size: 50px;
+    text-align: center;
+    margin: 30px 0;
+    font-weight: 800px;
+    color: transparent;
+    color: #ffffff;
+    letter-spacing: 10px;
+}
+.m-title > span{
+    font-size: 30px;
+    color: #738de9;
+    letter-spacing: 1px;
+
+}
+.main__block {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 40px;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    justify-content: space-between;
+}
+.main__block:nth-child(2){
+    flex-direction: row-reverse;
+}
+.main__block:nth-child(2) .main__block-right{
+    align-items: start;
+}
+.main__block-left {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+    border-radius: 66px;
+    padding: 30px;
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.79) 0%, rgba(240, 245, 255, 0.00) 100%);;
+}
+.main__block-img {
+    width: 50%;
+}
+.main__block-title {
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 30px;
+    color: #ffffff;
+    font-family: 'Courier New', Courier, monospace;
+    text-shadow: 1px 0 1px #000;
+}
+.main__block-right {
+    background-color: #FFAD51;
+    padding: 15px;
+    border-radius: 20px;
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    box-shadow: 2px 2px 10px #000000bd;
+}
+.main__block-info {
+    font-family: Poppins;
+    font-size: 19px;
+    line-height: 25px;
+}
+.main__block-btn {
+    padding: 10px 20px;
+    background-color: rgb(225, 32, 32);
+    color: #fff;
+    font-size: 19px;
+    border-radius: 10px;
+    transition: 0.5s;
+    cursor: pointer;
+    margin: 20px 0
+}
+.main__block-btn:hover{
+    background-color: rgb(151, 0, 0);
+}
+
+
+.faq {
+    display: flex;
+    max-width: 800px;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: center;
+    border: 8px solid #6d74c1;
+    border-radius: 20px;
+    padding: 20px;
+   
+}
+.faq-left {
+    font-size: 23px;
+    
+    margin-bottom: 30px;
+    color: #ffffff;
+    font-family: 'Courier New', Courier, monospace;
+    text-shadow: 1px 0 1px #000;
+}
+.faq-right {
+    max-width: 350px;
+   
+}
+
+
+@media (max-width: 991px){
+    .main__block {
+        
+        margin: 0 auto;
+        padding: 40px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 30px;
+       
+    }
+    .main__block:nth-child(2){
+        flex-direction: column;
+    }
+    .main__block:nth-child(2) .main__block-right{
+        align-items: flex-end;
+    }
+}
+@media (max-width: 767px){
+    .main__block{
+        text-align: center;
+    }
+    .faq{
+        flex-direction: column;
+        text-align: center;
+    }
+    .faq-left {
+        font-size: 19px;
+    }
+}
+
+@media (max-width: 575px){
+    .main__block-info {
+        font-family: Poppins;
+        font-size: 17px;
+        line-height: 22px;
+    }
+    .main__block-title {
+        font-size: 25px;
+   
+        margin-bottom: 20px;
+        
+    }
+    .faq-right{
+        max-width: 300px;
+    } 
+    .main__block {
+       
+     
+        padding: 5px;
+       
+        gap: 20px;
+       
+    }
+    .main__block-right {
+        
+        align-items: center;
+    }
+    .main__block:nth-child(2) .main__block-right{
+        align-items: center;
+    }
+    .header__logo {
+        font-size: 20px;
+     
+    }
+    .header__nav {
+        display: flex;
+        gap: 13px;
+       ;
+    }
+    .header__nav-item {
+        color: #FFAD51;
+        transition: 0.4s;
+        font-size: 13px;
+        text-shadow: 1px 0px 1px #000;
+    }
+    .m-title{
+        font-size: 35px;
+    }
+}
