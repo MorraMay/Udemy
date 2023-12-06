@@ -254,45 +254,6 @@ letter-spacing: 0.57px;
 
 
 
-  @media (max-width: 1199px) { 
-   
-    
- }
-
-
-    @media (max-width: 991px) { 
-        .i-card-box{
-            display: none;
-        }
-        .i-info-box{
-            align-items: center;
-        }
-        .i-info-box
-.i-left-box {
-     width: 100%;
-}
-     }
-
-    @media (max-width: 767px) { 
-        
-        
-       
-     }
-    @media (max-width: 575px) { 
-        .i-info-button{
-            width: 200px;
-            margin-top: 40px;
-        }
-        .i-title{
-            font-size: 23px;
-        }
-        .i-line{
-            height: 30px;
-        }
-        
-}
-
-
 
 /* RESEARCH */
 .m-title{
@@ -400,6 +361,41 @@ letter-spacing: 0.57px;
 }
 
 
+    @media (max-width: 991px) { 
+        .i-card-box{
+            display: none;
+        }
+        .i-info-box{
+            align-items: center;
+        }
+        .i-info-box
+.i-left-box {
+     width: 100%;
+}
+     }
+
+    @media (max-width: 767px) { 
+        
+        
+       
+     }
+    @media (max-width: 575px) { 
+        .i-info-button{
+            width: 200px;
+            margin-top: 40px;
+        }
+        .i-title{
+            font-size: 23px;
+        }
+        .i-line{
+            height: 30px;
+        }
+        
+}
+
+
+
+
 @media (max-width: 991px){
     .main__block {
         
@@ -438,7 +434,7 @@ letter-spacing: 0.57px;
         line-height: 22px;
     }
     .main__block-title {
-        font-size: 30px;
+        font-size: 25px;
    
         margin-bottom: 20px;
         
@@ -476,7 +472,7 @@ letter-spacing: 0.57px;
         font-size: 13px;
         text-shadow: 1px 0px 1px #000;
     }
-    h1{
+    .m-title{
         font-size: 35px;
     }
 }
